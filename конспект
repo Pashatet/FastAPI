@@ -4,3 +4,10 @@ uvicorn app.main:app --reload - запуск вебсервера
 При разработке на FastAPI иногда используется другой формат запуска:
 if __name__ == "__main__":
     uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
+
+для того, чтобы изменять состояние БД через Python, используется библиотека Alembic
+
+alembic init migrations - через alembic создаем необходимые файлы в пепке migrations
+alembic revision --autogenerate -m 'initial migration' - создание миграции
+alembic upgrade head - прогнать все миграции до последней или место head постаивть id миграции
+alembic downgrade -1 - мы перейдем на 1 миграции ниже
