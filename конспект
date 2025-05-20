@@ -1,0 +1,6 @@
+uvicorn app.main:app --reload - запуск вебсервера
+Для перехода к документации API можете зайти по адресу http://localhost:8000/docs или http://localhost:8000/redoc.
+
+При разработке на FastAPI иногда используется другой формат запуска:
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
