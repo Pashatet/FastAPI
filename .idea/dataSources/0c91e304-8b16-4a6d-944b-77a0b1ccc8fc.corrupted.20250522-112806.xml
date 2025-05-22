@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="myhotels@localhost">
-  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.49">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>756</IntrospectionStateNumber>
-      <ServerVersion>17.5</ServerVersion>
-      <StartupTime>1747902528</StartupTime>
+      <IntrospectionStateNumber>771</IntrospectionStateNumber>
+      <ServerVersion>17.4</ServerVersion>
+      <StartupTime>1747823215</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -1401,7 +1401,7 @@ true posixrules
 13219||10|C|G
 13219||-9223372036854775808|U|G
 13219||10|U|G</Grants>
-      <IntrospectionStateNumber>756</IntrospectionStateNumber>
+      <IntrospectionStateNumber>771</IntrospectionStateNumber>
       <ObjectId>16384</ObjectId>
       <OwnerName>admin</OwnerName>
     </database>
@@ -1410,7 +1410,55 @@ true posixrules
       <ObjectId>5</ObjectId>
       <OwnerName>admin</OwnerName>
     </database>
-    <role id="4" parent="1" name="admin">
+    <role id="4" parent="1" name="pg_database_owner">
+      <ObjectId>6171</ObjectId>
+    </role>
+    <role id="5" parent="1" name="pg_read_all_data">
+      <ObjectId>6181</ObjectId>
+    </role>
+    <role id="6" parent="1" name="pg_write_all_data">
+      <ObjectId>6182</ObjectId>
+    </role>
+    <role id="7" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <RoleGrants>3374
+3375
+3377</RoleGrants>
+    </role>
+    <role id="8" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+    </role>
+    <role id="9" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+    </role>
+    <role id="10" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+    </role>
+    <role id="11" parent="1" name="pg_read_server_files">
+      <ObjectId>4569</ObjectId>
+    </role>
+    <role id="12" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
+    </role>
+    <role id="13" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
+    </role>
+    <role id="14" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+    </role>
+    <role id="15" parent="1" name="pg_checkpoint">
+      <ObjectId>4544</ObjectId>
+    </role>
+    <role id="16" parent="1" name="pg_maintain">
+      <ObjectId>6337</ObjectId>
+    </role>
+    <role id="17" parent="1" name="pg_use_reserved_connections">
+      <ObjectId>4550</ObjectId>
+    </role>
+    <role id="18" parent="1" name="pg_create_subscription">
+      <ObjectId>6304</ObjectId>
+    </role>
+    <role id="19" parent="1" name="admin">
       <BypassRls>1</BypassRls>
       <CanLogin>1</CanLogin>
       <CreateDb>1</CreateDb>
@@ -1418,54 +1466,6 @@ true posixrules
       <ObjectId>10</ObjectId>
       <Replication>1</Replication>
       <SuperRole>1</SuperRole>
-    </role>
-    <role id="5" parent="1" name="pg_checkpoint">
-      <ObjectId>4544</ObjectId>
-    </role>
-    <role id="6" parent="1" name="pg_create_subscription">
-      <ObjectId>6304</ObjectId>
-    </role>
-    <role id="7" parent="1" name="pg_database_owner">
-      <ObjectId>6171</ObjectId>
-    </role>
-    <role id="8" parent="1" name="pg_execute_server_program">
-      <ObjectId>4571</ObjectId>
-    </role>
-    <role id="9" parent="1" name="pg_maintain">
-      <ObjectId>6337</ObjectId>
-    </role>
-    <role id="10" parent="1" name="pg_monitor">
-      <ObjectId>3373</ObjectId>
-      <RoleGrants>3374
-3375
-3377</RoleGrants>
-    </role>
-    <role id="11" parent="1" name="pg_read_all_data">
-      <ObjectId>6181</ObjectId>
-    </role>
-    <role id="12" parent="1" name="pg_read_all_settings">
-      <ObjectId>3374</ObjectId>
-    </role>
-    <role id="13" parent="1" name="pg_read_all_stats">
-      <ObjectId>3375</ObjectId>
-    </role>
-    <role id="14" parent="1" name="pg_read_server_files">
-      <ObjectId>4569</ObjectId>
-    </role>
-    <role id="15" parent="1" name="pg_signal_backend">
-      <ObjectId>4200</ObjectId>
-    </role>
-    <role id="16" parent="1" name="pg_stat_scan_tables">
-      <ObjectId>3377</ObjectId>
-    </role>
-    <role id="17" parent="1" name="pg_use_reserved_connections">
-      <ObjectId>4550</ObjectId>
-    </role>
-    <role id="18" parent="1" name="pg_write_all_data">
-      <ObjectId>6182</ObjectId>
-    </role>
-    <role id="19" parent="1" name="pg_write_server_files">
-      <ObjectId>4570</ObjectId>
     </role>
     <tablespace id="20" parent="1" name="pg_default">
       <ObjectId>1663</ObjectId>
@@ -4828,86 +4828,87 @@ true posixrules
     <schema id="265" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>756</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2025-05-22.08:40:35</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>771</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2025-05-21.16:20:00.125</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2025-05-21.13:20:00</LocalIntrospectionTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>532</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <sequence id="266" parent="265" name="bookings_id_seq">
-      <ObjectId>16426</ObjectId>
-      <SequenceIdentity>1</SequenceIdentity>
+      <DasType>integer|0s</DasType>
+      <ObjectId>16442</ObjectId>
+      <SequenceIdentity>1(1)</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <OwnerName>admin</OwnerName>
     </sequence>
     <sequence id="267" parent="265" name="hotels_id_seq">
-      <ObjectId>16394</ObjectId>
-      <SequenceIdentity>1</SequenceIdentity>
+      <DasType>integer|0s</DasType>
+      <ObjectId>16410</ObjectId>
+      <SequenceIdentity>1(1)</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>752</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <OwnerName>admin</OwnerName>
     </sequence>
     <sequence id="268" parent="265" name="rooms_id_seq">
-      <ObjectId>16412</ObjectId>
-      <SequenceIdentity>1</SequenceIdentity>
+      <DasType>integer|0s</DasType>
+      <ObjectId>16428</ObjectId>
+      <SequenceIdentity>1(1)</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <OwnerName>admin</OwnerName>
     </sequence>
     <sequence id="269" parent="265" name="users_id_seq">
-      <ObjectId>16403</ObjectId>
-      <SequenceIdentity>1</SequenceIdentity>
+      <DasType>integer|0s</DasType>
+      <ObjectId>16419</ObjectId>
+      <SequenceIdentity>1(1)</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <OwnerName>admin</OwnerName>
     </sequence>
     <table id="270" parent="265" name="alembic_version">
-      <ObjectId>16385</ObjectId>
-      <StateNumber>740</StateNumber>
+      <ObjectId>16394</ObjectId>
+      <StateNumber>752</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>admin</OwnerName>
     </table>
     <table id="271" parent="265" name="bookings">
-      <ObjectId>16427</ObjectId>
-      <StateNumber>755</StateNumber>
+      <ObjectId>16443</ObjectId>
+      <StateNumber>770</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>admin</OwnerName>
     </table>
     <table id="272" parent="265" name="hotels">
-      <ObjectId>16395</ObjectId>
-      <StateNumber>755</StateNumber>
+      <ObjectId>16411</ObjectId>
+      <StateNumber>770</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>admin</OwnerName>
     </table>
     <table id="273" parent="265" name="rooms">
-      <ObjectId>16413</ObjectId>
-      <StateNumber>755</StateNumber>
+      <ObjectId>16429</ObjectId>
+      <StateNumber>770</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>admin</OwnerName>
     </table>
     <table id="274" parent="265" name="users">
-      <ObjectId>16404</ObjectId>
-      <StateNumber>755</StateNumber>
+      <ObjectId>16420</ObjectId>
+      <StateNumber>770</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>admin</OwnerName>
     </table>
     <column id="275" parent="270" name="version_num">
+      <DasType>varchar(32)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>740</StateNumber>
-      <StoredType>varchar(32)|0s</StoredType>
+      <StateNumber>752</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="276" parent="270" name="alembic_version_pkc">
       <ColNames>version_num</ColNames>
-      <ObjectId>16388</ObjectId>
+      <ObjectId>16397</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>740</StateNumber>
+      <StateNumber>752</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default</CollationNames>
@@ -4915,278 +4916,278 @@ true posixrules
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
     <key id="277" parent="270" name="alembic_version_pkc">
-      <ObjectId>16389</ObjectId>
+      <ObjectId>16398</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>740</StateNumber>
-      <UnderlyingIndexId>16388</UnderlyingIndexId>
+      <StateNumber>752</StateNumber>
+      <UnderlyingIndexId>16397</UnderlyingIndexId>
     </key>
     <column id="278" parent="271" name="id">
+      <DasType>integer|0s</DasType>
       <DefaultExpression>nextval(&apos;bookings_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
-      <SequenceId>16426</SequenceId>
+      <StateNumber>770</StateNumber>
+      <SequenceId>16442</SequenceId>
       <TypeId>23</TypeId>
     </column>
     <column id="279" parent="271" name="room_id">
+      <DasType>integer|0s</DasType>
       <Position>2</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="280" parent="271" name="user_id">
+      <DasType>integer|0s</DasType>
       <Position>3</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="281" parent="271" name="date_from">
+      <DasType>date|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>date|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>1082</TypeId>
     </column>
     <column id="282" parent="271" name="date_to">
+      <DasType>date|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>date|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>1082</TypeId>
     </column>
     <column id="283" parent="271" name="price">
+      <DasType>integer|0s</DasType>
       <Position>6</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="284" parent="271" name="total_cost">
+      <DasType>integer|0s</DasType>
       <DefaultExpression>((date_from - date_to) * price)</DefaultExpression>
       <IdentityKind>always</IdentityKind>
       <Position>7</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="285" parent="271" name="total_days">
+      <DasType>integer|0s</DasType>
       <DefaultExpression>(date_from - date_to)</DefaultExpression>
       <IdentityKind>always</IdentityKind>
       <Position>8</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <foreign-key id="286" parent="271" name="bookings_room_id_fkey">
       <ColNames>room_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16435</ObjectId>
-      <StateNumber>755</StateNumber>
+      <ObjectId>16451</ObjectId>
+      <StateNumber>770</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>16413</RefTableId>
+      <RefTableId>16429</RefTableId>
     </foreign-key>
     <foreign-key id="287" parent="271" name="bookings_user_id_fkey">
       <ColNames>user_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16440</ObjectId>
-      <StateNumber>755</StateNumber>
+      <ObjectId>16456</ObjectId>
+      <StateNumber>770</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>16404</RefTableId>
+      <RefTableId>16420</RefTableId>
     </foreign-key>
     <index id="288" parent="271" name="bookings_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16433</ObjectId>
+      <ObjectId>16449</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>755</StateNumber>
+      <StateNumber>770</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="289" parent="271" name="bookings_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16434</ObjectId>
+      <ObjectId>16450</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>755</StateNumber>
-      <UnderlyingIndexId>16433</UnderlyingIndexId>
+      <StateNumber>770</StateNumber>
+      <UnderlyingIndexId>16449</UnderlyingIndexId>
     </key>
     <column id="290" parent="272" name="id">
+      <DasType>integer|0s</DasType>
       <DefaultExpression>nextval(&apos;hotels_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>752</StateNumber>
-      <StoredType>integer|0s</StoredType>
-      <SequenceId>16394</SequenceId>
+      <StateNumber>770</StateNumber>
+      <SequenceId>16410</SequenceId>
       <TypeId>23</TypeId>
     </column>
     <column id="291" parent="272" name="name">
+      <DasType>varchar|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>752</StateNumber>
-      <StoredType>varchar|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="292" parent="272" name="location">
+      <DasType>varchar|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
-      <StateNumber>752</StateNumber>
-      <StoredType>varchar|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="293" parent="272" name="services">
+      <DasType>json|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
-      <StateNumber>752</StateNumber>
-      <StoredType>json|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>114</TypeId>
     </column>
     <column id="294" parent="272" name="rooms_quantity">
+      <DasType>integer|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
-      <StateNumber>752</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="295" parent="272" name="image_id">
+      <DasType>integer|0s</DasType>
       <Position>6</Position>
-      <StateNumber>752</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <index id="296" parent="272" name="hotels_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16401</ObjectId>
+      <ObjectId>16417</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>752</StateNumber>
+      <StateNumber>770</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="297" parent="272" name="hotels_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16402</ObjectId>
+      <ObjectId>16418</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>752</StateNumber>
-      <UnderlyingIndexId>16401</UnderlyingIndexId>
+      <StateNumber>770</StateNumber>
+      <UnderlyingIndexId>16417</UnderlyingIndexId>
     </key>
     <column id="298" parent="273" name="id">
+      <DasType>integer|0s</DasType>
       <DefaultExpression>nextval(&apos;rooms_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
-      <SequenceId>16412</SequenceId>
+      <StateNumber>770</StateNumber>
+      <SequenceId>16428</SequenceId>
       <TypeId>23</TypeId>
     </column>
     <column id="299" parent="273" name="hotel_id">
+      <DasType>integer|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="300" parent="273" name="name">
+      <DasType>varchar|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>varchar|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="301" parent="273" name="description">
+      <DasType>varchar|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>varchar|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="302" parent="273" name="price">
+      <DasType>integer|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="303" parent="273" name="services">
+      <DasType>json|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>json|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>114</TypeId>
     </column>
     <column id="304" parent="273" name="quantity">
+      <DasType>integer|0s</DasType>
       <NotNull>1</NotNull>
       <Position>7</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="305" parent="273" name="image_id">
+      <DasType>integer|0s</DasType>
       <Position>8</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <foreign-key id="306" parent="273" name="rooms_hotel_id_fkey">
       <ColNames>hotel_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16421</ObjectId>
-      <StateNumber>755</StateNumber>
+      <ObjectId>16437</ObjectId>
+      <StateNumber>770</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>16395</RefTableId>
+      <RefTableId>16411</RefTableId>
     </foreign-key>
     <index id="307" parent="273" name="rooms_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16419</ObjectId>
+      <ObjectId>16435</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>755</StateNumber>
+      <StateNumber>770</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="308" parent="273" name="rooms_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16420</ObjectId>
+      <ObjectId>16436</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>755</StateNumber>
-      <UnderlyingIndexId>16419</UnderlyingIndexId>
+      <StateNumber>770</StateNumber>
+      <UnderlyingIndexId>16435</UnderlyingIndexId>
     </key>
     <column id="309" parent="274" name="id">
+      <DasType>integer|0s</DasType>
       <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>integer|0s</StoredType>
-      <SequenceId>16403</SequenceId>
+      <StateNumber>770</StateNumber>
+      <SequenceId>16419</SequenceId>
       <TypeId>23</TypeId>
     </column>
     <column id="310" parent="274" name="email">
+      <DasType>varchar|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>varchar|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="311" parent="274" name="hashed_password">
+      <DasType>varchar|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
-      <StateNumber>755</StateNumber>
-      <StoredType>varchar|0s</StoredType>
+      <StateNumber>770</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="312" parent="274" name="users_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16410</ObjectId>
+      <ObjectId>16426</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>755</StateNumber>
+      <StateNumber>770</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="313" parent="274" name="users_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16411</ObjectId>
+      <ObjectId>16427</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>755</StateNumber>
-      <UnderlyingIndexId>16410</UnderlyingIndexId>
+      <StateNumber>770</StateNumber>
+      <UnderlyingIndexId>16426</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>
