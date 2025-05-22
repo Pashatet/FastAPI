@@ -12,14 +12,6 @@
       <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c91e304-8b16-4a6d-944b-77a0b1ccc8fc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0c91e304-8b16-4a6d-944b-77a0b1ccc8fc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9efe04e8-59cc-44fe-a64b-78d6d81906c8/storage_v2/_src_/database/myhotels.65F88w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9efe04e8-59cc-44fe-a64b-78d6d81906c8/storage_v2/_src_/database/myhotels.65F88w/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9efe04e8-59cc-44fe-a64b-78d6d81906c8/storage_v2/_src_/database/myhotels.65F88w/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9efe04e8-59cc-44fe-a64b-78d6d81906c8/storage_v2/_src_/database/myhotels.65F88w/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../front/src/Modal/.vscode/settings.json" beforeDir="false" />
@@ -307,6 +299,7 @@
       <workItem from="1747896878500" duration="325000" />
       <workItem from="1747897216836" duration="260000" />
       <workItem from="1747897498567" duration="93000" />
+      <workItem from="1747897645727" duration="305000" />
     </task>
     <servers />
   </component>
