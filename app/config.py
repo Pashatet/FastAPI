@@ -1,4 +1,4 @@
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
@@ -15,9 +15,13 @@ class Settings(BaseSettings):
         """
         return f"postgresql+asyncpg://{self.DB_USER}:{self.DB_PASS}@{self.DB_HOST}:{self.DB_PORT}/{self.DB_NAME}"
 
-    #откуда импортитруем переменные
-    class Config:
-        env_file = ".env"
+    SECRET_KEY: str
+    ALGORITHM: str
+
+    model_config = SettingsConfigDict(env_file=".env")
+    #откуда импортитруем переменные это вариант со старой версии Pydantic, class Config был заменен на атрибут model_config
+    # class Config:
+    #     env_file = ".env"
 
 settings = Settings()
 # print(settings.DATABASE_URL)

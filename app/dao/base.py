@@ -1,5 +1,5 @@
 from app.database import async_session_maker
-from sqlalchemy import select
+from sqlalchemy import select, insert
 
 
 
@@ -28,3 +28,12 @@ class BaseDAO():
             queue = select(cls.model).filter_by(**filter_by)
             result = await session.execute(queue)
             return result.scalars().all()
+
+    @classmethod
+    async def add(cls, **data):
+        async with async_session_maker() as session:
+            #returning(cls.model.id) возвращение id нового пользователя
+            queue = insert(cls.model).values(**data)
+            await session.execute(queue)
+            #при селекте комит не нужен при вставке помогаем нам зафиксировать изменения в бд
+            await session.commit()

@@ -5,17 +5,178 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7916dd9f-c379-42a1-93e1-956e8bcc0955" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/bookings/dao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bookings/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dao/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FastAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FastAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Welcome4business.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/exeptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/users/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/users/dao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/users/dependencies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/users/router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/users/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c91e304-8b16-4a6d-944b-77a0b1ccc8fc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0c91e304-8b16-4a6d-944b-77a0b1ccc8fc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c91e304-8b16-4a6d-944b-77a0b1ccc8fc/storage_v2/_src_/database/myhotels.65F88w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0c91e304-8b16-4a6d-944b-77a0b1ccc8fc/storage_v2/_src_/database/myhotels.65F88w/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/bookings/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/bookings/router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/конспект.txt" beforeDir="false" afterPath="$PROJECT_DIR$/конспект.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dao/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dao/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/Modal/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/Modal/_modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/Modal/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/Modal/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/Manrope-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/Manrope-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/Manrope-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/Manrope-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/Manrope-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/Manrope-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/Manrope-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/Manrope-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/Manrope-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/Manrope-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/Manrope-SemiBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/Manrope-SemiBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/remixicon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/remixicon.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/remixicon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/remixicon.glyph.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/remixicon.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/remixicon.module.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/remixicon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/remixicon.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/remixicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/remixicon.symbol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/remixicon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/remixicon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/remixicon.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/symbol.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/fonts/unicode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/icons/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/img/Character.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/img/Group 14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/img/GroupWave.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/img/footer-fone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/img/mainScrin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/img/wave1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/img/wave2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/assets/img/wave3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/autorization/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/autorization/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/autorization/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/common/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/common/_fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/common/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/common/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/components/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/components/_product-form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/components/_tab.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/layout/_authorization.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/layout/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/layout/_startScrin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/layout/_stock.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/layout/authorization.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/layout/authorization.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/layout/startScrin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/layout/startScrin.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nginx.d/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/Pipfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/Pipfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/core/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/core/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/core/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/core/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/core/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/core/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/entrypoint/project.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/hookah/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/hookah/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/hookah/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/hookah/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/hookah/migrations/0002_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/hookah/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/hookah/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/hookah/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/hookah/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/hookah/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/hookah/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/owner/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/owner/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/owner/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/owner/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/owner/migrations/0002_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/owner/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/owner/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/owner/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/owner/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/owner/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/owner/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/project/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/storage/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/storage/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/storage/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/storage/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/storage/migrations/0002_remove_tobacco_count_tobacco_weight_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/storage/migrations/0003_tobacco_purchase_date.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/storage/migrations/0004_tobacco_created_tobacco_is_active_tobacco_updated.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/storage/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/storage/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/storage/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/storage/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/storage/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/storage/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/taste_generator/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/taste_generator/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/taste_generator/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/taste_generator/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/taste_generator/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/taste_generator/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/taste_generator/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/taste_generator/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/taste_generator/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/taste_generator/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/user/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/user/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/user/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/user/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/user/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/user/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/user/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/user/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/user/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/user/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/worker/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/worker/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/worker/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/worker/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/worker/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/worker/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/worker/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/worker/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/worker/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/worker/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +192,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/app/bookings/schemas.py" root0="FORCE_HIGHLIGHTING" />
@@ -49,33 +211,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.config.executor": "Run",
-    "Python.test_conn.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/test/FastAPI/FastAPI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_conn.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/test/FastAPI/FastAPI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -140,8 +303,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
-        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
@@ -160,6 +323,8 @@
       <workItem from="1747897216836" duration="260000" />
       <workItem from="1747897498567" duration="93000" />
       <workItem from="1747897645727" duration="608000" />
+      <workItem from="1748627655119" duration="733000" />
+      <workItem from="1748851281832" duration="9853000" />
     </task>
     <servers />
   </component>
@@ -167,7 +332,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FastAPI$main.coverage" NAME="main Coverage Results" MODIFIED="1747848300897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/FastAPI$main.coverage" NAME="main Coverage Results" MODIFIED="1748628424540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/FastAPI$test_conn.coverage" NAME="test_conn Coverage Results" MODIFIED="1747738228668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/FastAPI$config.coverage" NAME="config Coverage Results" MODIFIED="1747769781551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
